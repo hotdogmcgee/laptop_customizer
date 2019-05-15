@@ -6,10 +6,6 @@ import ListChoices from './ListChoices.js'
 
 describe('ListChoices component', () => {
   it('renders without crashing', () => {
-    const testObj = {
-        name: "hello",
-        cost: 45
-    }
     const div = document.createElement('div');
     ReactDOM.render(<ListChoices />, div);
     ReactDOM.unmountComponentAtNode(div);

@@ -12,17 +12,17 @@ class ListItem extends React.Component {
                 item: {
                       name,
                       cost,
-                }
+                }, index, key
            } = this.props
            
 
             // const selectedClass = name === this.state.selected[key].name ? 'feature__selected' : '';
             // const featureClass = 'feature__option ' + selectedClass;
             return (
-                <li key={this.props.index} className="feature__item">
+                <li key={index} className="feature__item">
                 <div 
                     // className={featureClass}
-                    // onClick={e => this.props.updateFeature(key, item)}
+                    onClick={e => this.props.updateFeature(key)}
                 >
                     { name }
                     ({ new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD'})

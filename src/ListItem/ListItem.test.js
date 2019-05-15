@@ -21,7 +21,7 @@ describe('ListItem component', () => {
         cost: 45
     }
     const tree = renderer
-      .create(<ListItem item={testObj} updateFeature={() => {return 1}}/>)
+      .create(<ListItem item={testObj} index={3} updateFeature={() => {return 1}}/>)
       .toJSON();
     expect(tree).toMatchSnapshot();  
   });

@@ -1,3 +1,146 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ListChoices component renders the UI as expected 1`] = `null`;
+exports[`ListChoices component renders the UI as expected 1`] = `
+Array [
+  <div
+    className="feature"
+  >
+    <div
+      className="feature__name"
+    />
+    <ul
+      className="feature__list"
+    >
+      <li
+        className="feature__item"
+      >
+        <div
+          onClick={[Function]}
+        >
+          17th Generation Intel Core HB (7 Core with donut spare)
+          (
+          $700.00
+          )
+        </div>
+      </li>
+      <li
+        className="feature__item"
+      >
+        <div
+          onClick={[Function]}
+        >
+          Professor X AMD Fire Breather with sidewinder technology
+          (
+          $1,200.00
+          )
+        </div>
+      </li>
+    </ul>
+  </div>,
+  <div
+    className="feature"
+  >
+    <div
+      className="feature__name"
+    />
+    <ul
+      className="feature__list"
+    >
+      <li
+        className="feature__item"
+      >
+        <div
+          onClick={[Function]}
+        >
+          Ubuntu Linux 16.04
+          (
+          $200.00
+          )
+        </div>
+      </li>
+      <li
+        className="feature__item"
+      >
+        <div
+          onClick={[Function]}
+        >
+          Bodhi Linux
+          (
+          $300.00
+          )
+        </div>
+      </li>
+    </ul>
+  </div>,
+  <div
+    className="feature"
+  >
+    <div
+      className="feature__name"
+    />
+    <ul
+      className="feature__list"
+    >
+      <li
+        className="feature__item"
+      >
+        <div
+          onClick={[Function]}
+        >
+          Toyota Corolla 1.5v
+          (
+          $1,150.98
+          )
+        </div>
+      </li>
+      <li
+        className="feature__item"
+      >
+        <div
+          onClick={[Function]}
+        >
+          Mind mild breeze 2000
+          (
+          $1,345.00
+          )
+        </div>
+      </li>
+    </ul>
+  </div>,
+  <div
+    className="feature"
+  >
+    <div
+      className="feature__name"
+    />
+    <ul
+      className="feature__list"
+    >
+      <li
+        className="feature__item"
+      >
+        <div
+          onClick={[Function]}
+        >
+          15.6" UHD (3840 x 2160) 60Hz Bright Lights and Knobs
+          (
+          $1,500.00
+          )
+        </div>
+      </li>
+      <li
+        className="feature__item"
+      >
+        <div
+          onClick={[Function]}
+        >
+          15.3" HGTV (3840 x 2160) Home makeover edition
+          (
+          $1,400.00
+          )
+        </div>
+      </li>
+    </ul>
+  </div>,
+]
+`;

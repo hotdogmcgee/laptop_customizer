@@ -9,31 +9,36 @@ class ListChoices extends React.Component {
     render() {
 
         const {
-            key, features
+            features
         } = this.props
 
-    const displayFeatures = features
+    const displayFeatures = Object.keys(features)
           .map(featuresItem => {
             const ListItem_item = features[featuresItem].map((item, index) => 
                 <ListItem
                     item={item}
                     index={index} 
                     updateFeature={this.props.updateFeature}
+                    key={index}
                  />
+
             );
 
+
             return (
-                <div className="feature" key={key}>
-                <div className="feature__name">{key}</div>
+                <div className="feature" key={features[featuresItem].name}>
+                <div className="feature__name">{features[featuresItem].name}</div>
                 <ul className="feature__list">
                     { ListItem_item }
                 </ul>
                 </div>
             )
-          }); 
 
-    return console.log(displayFeatures)
-    // return displayFeatures
+            }); 
+    
+
+    return displayFeatures
+
     }
 }
 
