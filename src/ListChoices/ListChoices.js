@@ -2,32 +2,43 @@ import React from 'react'
 import ListItem from '../ListItem/ListItem.js'
 
 class ListChoices extends React.Component {
-    //I need this because I want to access props in a class, correct?
     constructor(props) {
         super(props)
     }
 
     render() {
-    const features = this.props.features
-          .map(key => {
-            this.props.features[key].map((item, index) => {
+
+        const {
+            key, features
+        } = this.props
+
+    const displayFeatures = features
+          .map(featuresItem => {
+            const ListItem_item = features[featuresItem].map((item, index) => 
                 <ListItem
                     item={item}
                     index={index} 
                     updateFeature={this.props.updateFeature}
                  />
-            });
+            );
 
             return (
-                <div className="feature" key={this.props.key}>
-                <div className="feature__name">{this.props.key}</div>
+                <div className="feature" key={key}>
+                <div className="feature__name">{key}</div>
                 <ul className="feature__list">
-                    { features }
+                    { ListItem_item }
                 </ul>
                 </div>
             )
           }); 
+
+    return console.log(displayFeatures)
+    // return displayFeatures
     }
+}
+
+ListChoices.defaultProps = {
+    features: []
 }
 
 export default ListChoices

@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component renders the UI as expected 1`] = `
+<div
+  className="App"
+>
+  <header>
+    <h1>
+      ELF Computing
+    </h1>
+    <h3>
+      Laptops
+    </h3>
+    <h5>
+      Customize your laptop
+    </h5>
+  </header>
+  <main>
+    <section
+      className="main__form"
+    >
+      <h3>
+        TECH SPECS AND CUSTOMIZATIONS
+      </h3>
+    </section>
+    <section
+      className="main__summary"
+    >
+      <h3>
+        NEW GREENLEAF 2018
+      </h3>
+      <div
+        className="summary__option"
+      >
+        <div
+          className="summary__option__label"
+        >
+          Processor
+            
+        </div>
+        <div
+          className="summary__option__value"
+        >
+          17th Generation Intel Core HB (7 Core with donut spare)
+        </div>
+        <div
+          className="summary__option__cost"
+        >
+          $700.00
+        </div>
+      </div>
+      <div
+        className="summary__option"
+      >
+        <div
+          className="summary__option__label"
+        >
+          Operating System
+            
+        </div>
+        <div
+          className="summary__option__value"
+        >
+          Ubuntu Linux 16.04
+        </div>
+        <div
+          className="summary__option__cost"
+        >
+          $200.00
+        </div>
+      </div>
+      <div
+        className="summary__option"
+      >
+        <div
+          className="summary__option__label"
+        >
+          Video Card
+            
+        </div>
+        <div
+          className="summary__option__value"
+        >
+          Toyota Corolla 1.5v
+        </div>
+        <div
+          className="summary__option__cost"
+        >
+          $1,150.98
+        </div>
+      </div>
+      <div
+        className="summary__option"
+      >
+        <div
+          className="summary__option__label"
+        >
+          Display
+            
+        </div>
+        <div
+          className="summary__option__value"
+        >
+          15.6" UHD (3840 x 2160) 60Hz Bright Lights and Knobs
+        </div>
+        <div
+          className="summary__option__cost"
+        >
+          $1,500.00
+        </div>
+      </div>
+      <div
+        className="summary__total"
+      >
+        <div
+          className="summary__total__label"
+        >
+          Your Price: 
+        </div>
+        <div
+          className="summary__total__value"
+        >
+          $3,550.98
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+`;

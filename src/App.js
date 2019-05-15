@@ -49,22 +49,7 @@ class App extends Component {
     const total = Object.keys(this.state.selected)
           .reduce((acc, curr) => acc + this.state.selected[curr].cost, 0);    
 
-
-    // a series of ULs to be rendered by ListChoices in a series of divs
-    const features = this.props.features
-    
-          .map(key => {
-            const options = this.props.features[key].map((item, index) => {
-              <ListChoices />
-            });
-
-            return (
-            <section className="main__form">
-              <h3>TECH SPECS AND CUSTOMIZATIONS</h3>
-              { features }
-            </section>
-            )
-          });      
+  
 
     return (
       <div className="App">
@@ -76,7 +61,7 @@ class App extends Component {
         <main>
           <section className="main__form">
             <h3>TECH SPECS AND CUSTOMIZATIONS</h3>
-            { features }
+            <ListChoices features={this.props.features}/>
           </section>
           <section className="main__summary">
             <h3>NEW GREENLEAF 2018</h3>
