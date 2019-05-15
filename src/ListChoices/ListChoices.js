@@ -2,6 +2,11 @@ import React from 'react'
 import ListItem from '../ListItem/ListItem.js'
 
 class ListChoices extends React.Component {
+    //I need this because I want to access props in a class, correct?
+    constructor(props) {
+        super(props)
+    }
+
     render() {
     const features = this.props.features
           .map(key => {

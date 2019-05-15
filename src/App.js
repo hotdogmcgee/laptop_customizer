@@ -51,7 +51,7 @@ class App extends Component {
 
 
     // a series of ULs to be rendered by ListChoices in a series of divs
-    const features = Object.keys(this.props.features)
+    const features = this.props.features
     
           .map(key => {
             const options = this.props.features[key].map((item, index) => {

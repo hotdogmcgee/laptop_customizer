@@ -2,7 +2,7 @@ import React from 'react'
 
 class ListItem extends React.Component {
     render() {
-            const selectedClass = item.name === this.state.selected[key].name ? 'feature__selected' : '';
+            const selectedClass = this.props.item.name === this.state.selected[key].name ? 'feature__selected' : '';
             const featureClass = 'feature__option ' + selectedClass;
             return (
                 <li key={this.props.index} className="feature__item">
