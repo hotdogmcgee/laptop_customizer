@@ -12,7 +12,7 @@ class ListItem extends React.Component {
                 item: {
                       name,
                       cost,
-                }, index, key
+                }, index
            } = this.props
            
 
@@ -22,7 +22,7 @@ class ListItem extends React.Component {
                 <li key={index} className="feature__item">
                 <div 
                     // className={featureClass}
-                    onClick={e => this.props.updateFeature(key)}
+                    onClick={this.props.updateFeature(name)}
                 >
                     { name }
                     ({ new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD'})

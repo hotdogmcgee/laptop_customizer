@@ -15,7 +15,7 @@ Array [
         className="feature__item"
       >
         <div
-          onClick={[Function]}
+          onClick={1}
         >
           17th Generation Intel Core HB (7 Core with donut spare)
           (
@@ -27,7 +27,7 @@ Array [
         className="feature__item"
       >
         <div
-          onClick={[Function]}
+          onClick={1}
         >
           Professor X AMD Fire Breather with sidewinder technology
           (
@@ -50,7 +50,7 @@ Array [
         className="feature__item"
       >
         <div
-          onClick={[Function]}
+          onClick={1}
         >
           Ubuntu Linux 16.04
           (
@@ -62,7 +62,7 @@ Array [
         className="feature__item"
       >
         <div
-          onClick={[Function]}
+          onClick={1}
         >
           Bodhi Linux
           (
@@ -85,7 +85,7 @@ Array [
         className="feature__item"
       >
         <div
-          onClick={[Function]}
+          onClick={1}
         >
           Toyota Corolla 1.5v
           (
@@ -97,7 +97,7 @@ Array [
         className="feature__item"
       >
         <div
-          onClick={[Function]}
+          onClick={1}
         >
           Mind mild breeze 2000
           (
@@ -120,7 +120,7 @@ Array [
         className="feature__item"
       >
         <div
-          onClick={[Function]}
+          onClick={1}
         >
           15.6" UHD (3840 x 2160) 60Hz Bright Lights and Knobs
           (
@@ -132,7 +132,7 @@ Array [
         className="feature__item"
       >
         <div
-          onClick={[Function]}
+          onClick={1}
         >
           15.3" HGTV (3840 x 2160) Home makeover edition
           (

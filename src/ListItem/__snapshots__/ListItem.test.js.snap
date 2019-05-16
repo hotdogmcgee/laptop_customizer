@@ -5,7 +5,7 @@ exports[`ListItem component renders the UI as expected 1`] = `
   className="feature__item"
 >
   <div
-    onClick={[Function]}
+    onClick={1}
   >
     hello
     (

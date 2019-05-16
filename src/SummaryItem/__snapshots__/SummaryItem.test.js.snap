@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SummaryItem component renders the UI as expected 1`] = `
+<div
+  className="summary__option"
+  label="type of thing"
+>
+  <div
+    className="summary__option__label"
+  >
+    type of thing
+      
+  </div>
+  <div
+    className="summary__option__value"
+  >
+    test item
+  </div>
+  <div
+    className="summary__option__cost"
+  >
+    $430.00
+  </div>
+</div>
+`;

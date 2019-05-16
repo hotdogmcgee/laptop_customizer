@@ -55,7 +55,7 @@ describe('ListChoices component', () => {
         ]
       };
     const tree = renderer
-      .create(<ListChoices features={FEATURES} />)
+      .create(<ListChoices features={FEATURES} updateFeature={() => {return 1}}/>)
       .toJSON();
     expect(tree).toMatchSnapshot();  
   });

@@ -13,11 +13,10 @@ class ListChoices extends React.Component {
         } = this.props
 
     const displayFeatures = Object.keys(features)
-          .map(featuresItem => {
+          .map((featuresItem) => {
             const ListItem_item = features[featuresItem].map((item, index) => 
                 <ListItem
                     item={item}
-                    index={index} 
                     updateFeature={this.props.updateFeature}
                     key={index}
                  />
