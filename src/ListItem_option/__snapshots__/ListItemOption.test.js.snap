@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListItemOption component renders the UI as expected 1`] = `
+<li
+  className="feature__item"
+>
+  <div
+    onClick={1}
+  >
+    hello
+    (
+    $45.00
+    )
+  </div>
+</li>
+`;

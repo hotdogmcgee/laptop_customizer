@@ -13,37 +13,30 @@ class ListChoices extends React.Component {
         } = this.props
 
     const displayFeatures = Object.keys(features)
-          .map((featuresItem) => {
-            const ListItem_item = features[featuresItem].map((item, index) => 
-                <ListItem
-                    item={item}
-                    updateFeature={this.props.updateFeature}
-                    key={index}
-                 />
-
-            );
-
-
-            return (
-                <div className="feature" key={features[featuresItem].name}>
-                <div className="feature__name">{features[featuresItem].name}</div>
-                <ul className="feature__list">
-                    { ListItem_item }
-                </ul>
-                </div>
-            )
+          .map((featuresItem, index) => {
+            
+              return <ListItem 
+              //featuresItem is simply the name of the object, do I need to use each part of object's keys to pass as paramaters in props?
+                name={featuresItem} 
+                featuresItem={features}
+                updateFeature={this.props.updateFeature}
+                key={index}
+              />
 
             }); 
     
 
-    return displayFeatures
-
+    return (
+        <div className="List-choices-container">
+                {displayFeatures}
+        </div>
+        
+    )
     }
 }
 
-ListChoices.defaultProps = {
-    features: []
-}
+
+
 
 export default ListChoices
 

@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ListChoices component renders the UI as expected 1`] = `
-Array [
+<div
+  className="List-choices-container"
+>
   <div
     className="feature"
   >
@@ -17,9 +19,8 @@ Array [
         <div
           onClick={1}
         >
-          17th Generation Intel Core HB (7 Core with donut spare)
           (
-          $700.00
+          $NaN
           )
         </div>
       </li>
@@ -29,14 +30,35 @@ Array [
         <div
           onClick={1}
         >
-          Professor X AMD Fire Breather with sidewinder technology
           (
-          $1,200.00
+          $NaN
+          )
+        </div>
+      </li>
+      <li
+        className="feature__item"
+      >
+        <div
+          onClick={1}
+        >
+          (
+          $NaN
+          )
+        </div>
+      </li>
+      <li
+        className="feature__item"
+      >
+        <div
+          onClick={1}
+        >
+          (
+          $NaN
           )
         </div>
       </li>
     </ul>
-  </div>,
+  </div>
   <div
     className="feature"
   >
@@ -52,9 +74,8 @@ Array [
         <div
           onClick={1}
         >
-          Ubuntu Linux 16.04
           (
-          $200.00
+          $NaN
           )
         </div>
       </li>
@@ -64,14 +85,35 @@ Array [
         <div
           onClick={1}
         >
-          Bodhi Linux
           (
-          $300.00
+          $NaN
+          )
+        </div>
+      </li>
+      <li
+        className="feature__item"
+      >
+        <div
+          onClick={1}
+        >
+          (
+          $NaN
+          )
+        </div>
+      </li>
+      <li
+        className="feature__item"
+      >
+        <div
+          onClick={1}
+        >
+          (
+          $NaN
           )
         </div>
       </li>
     </ul>
-  </div>,
+  </div>
   <div
     className="feature"
   >
@@ -87,9 +129,8 @@ Array [
         <div
           onClick={1}
         >
-          Toyota Corolla 1.5v
           (
-          $1,150.98
+          $NaN
           )
         </div>
       </li>
@@ -99,14 +140,35 @@ Array [
         <div
           onClick={1}
         >
-          Mind mild breeze 2000
           (
-          $1,345.00
+          $NaN
+          )
+        </div>
+      </li>
+      <li
+        className="feature__item"
+      >
+        <div
+          onClick={1}
+        >
+          (
+          $NaN
+          )
+        </div>
+      </li>
+      <li
+        className="feature__item"
+      >
+        <div
+          onClick={1}
+        >
+          (
+          $NaN
           )
         </div>
       </li>
     </ul>
-  </div>,
+  </div>
   <div
     className="feature"
   >
@@ -122,9 +184,8 @@ Array [
         <div
           onClick={1}
         >
-          15.6" UHD (3840 x 2160) 60Hz Bright Lights and Knobs
           (
-          $1,500.00
+          $NaN
           )
         </div>
       </li>
@@ -134,13 +195,34 @@ Array [
         <div
           onClick={1}
         >
-          15.3" HGTV (3840 x 2160) Home makeover edition
           (
-          $1,400.00
+          $NaN
+          )
+        </div>
+      </li>
+      <li
+        className="feature__item"
+      >
+        <div
+          onClick={1}
+        >
+          (
+          $NaN
+          )
+        </div>
+      </li>
+      <li
+        className="feature__item"
+      >
+        <div
+          onClick={1}
+        >
+          (
+          $NaN
           )
         </div>
       </li>
     </ul>
-  </div>,
-]
+  </div>
+</div>
 `;

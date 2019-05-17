@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
-import ListItem from './ListItem.js'
+import ListItemOption from './ListItemOption.js'
 
 
-describe('ListItem component', () => {
+describe('ListItemOption component', () => {
   it('renders without crashing', () => {
     const testObj = {
         name: "hello",
         cost: 45
     }
     const div = document.createElement('div');
-    ReactDOM.render(<ListItem featuresItem={testObj} updateFeature={() => {return 1}}/>, div);
+    ReactDOM.render(<ListItemOption item={testObj} updateFeature={() => {return 1}}/>, div);
     ReactDOM.unmountComponentAtNode(div);
   });
 
@@ -21,7 +21,7 @@ describe('ListItem component', () => {
         cost: 45,
     }
     const tree = renderer
-      .create(<ListItem featuresItem={testObj} updateFeature={() => {return 1}}/>)
+      .create(<ListItemOption item={testObj} updateFeature={() => {return 1}}/>)
       .toJSON();
     expect(tree).toMatchSnapshot();  
   });

@@ -4,6 +4,14 @@ import ShoppingItem from '../SummaryItem/SummaryItem';
 // should total be passed as a prop in App?
 class ShoppingSummary extends React.Component {
     render () {
+
+        const { selected } = this.props
+        
+        const summary = Object.keys(selected)
+          .map((key, index) => <ShoppingItem item={key} key={index}/>)
+
+        const total = Object.keys(selected)
+          .reduce((acc, curr) => acc + selected[curr].cost, 0); 
         return (
             <div>
                 {summary}
@@ -20,9 +28,3 @@ class ShoppingSummary extends React.Component {
 }
 
 export default ShoppingSummary
-
-const summary = Object.keys(this.state.selected)
-          .map(key => <ShoppingItem />)
-
-    const total = Object.keys(this.state.selected)
-          .reduce((acc, curr) => acc + this.state.selected[curr].cost, 0); 

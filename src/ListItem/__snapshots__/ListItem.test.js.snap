@@ -1,16 +1,39 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ListItem component renders the UI as expected 1`] = `
-<li
-  className="feature__item"
+<div
+  className="feature"
 >
   <div
-    onClick={1}
+    className="feature__name"
   >
     hello
-    (
-    $45.00
-    )
   </div>
-</li>
+  <ul
+    className="feature__list"
+  >
+    <li
+      className="feature__item"
+    >
+      <div
+        onClick={1}
+      >
+        (
+        $NaN
+        )
+      </div>
+    </li>
+    <li
+      className="feature__item"
+    >
+      <div
+        onClick={1}
+      >
+        (
+        $NaN
+        )
+      </div>
+    </li>
+  </ul>
+</div>
 `;

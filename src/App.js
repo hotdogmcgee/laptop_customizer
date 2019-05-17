@@ -48,11 +48,11 @@ class App extends Component {
         <main>
           <section className="main__form">
             <h3>TECH SPECS AND CUSTOMIZATIONS</h3>
-            <ListChoices features={this.props.features}/>
+            <ListChoices features={this.props.features} updateFeature={() => this.updateFeature}/>
           </section>
           <section className="main__summary">
             <h3>NEW GREENLEAF 2018</h3>
-            <ShoppingSummary />
+            <ShoppingSummary selected={this.state.selected}/>
           </section>
         </main>
       </div>

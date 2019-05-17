@@ -1,37 +1,36 @@
 import React from 'react'
+import ListItemOption from '../ListItem_option/ListItemOption.js'
 
 class ListItem extends React.Component {
     constructor(props) {
         super(props)
     }
 
-    //destructure inside render
+    
+    //render a component that displays two options
     render() {
 
-            const {
-                item: {
-                      name,
-                      cost,
-                }, index
-           } = this.props
-           
+        const { featuresItem } = this.props
+        const ListItem_item = Object.keys(featuresItem).map((item, index) => 
+                <ListItemOption
+                    item={item}
+                    updateFeature={this.props.updateFeature}
+                    key={index}
+                 />
 
-            // const selectedClass = name === this.state.selected[key].name ? 'feature__selected' : '';
-            // const featureClass = 'feature__option ' + selectedClass;
+            );
+
+
             return (
-                <li key={index} className="feature__item">
-                <div 
-                    // className={featureClass}
-                    onClick={this.props.updateFeature(name)}
-                >
-                    { name }
-                    ({ new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD'})
-                        .format(cost) })
+                <div className="feature" key={featuresItem.name}>
+                <div className="feature__name">{featuresItem.name}</div>
+                <ul className="feature__list">
+                    { ListItem_item }
+                </ul>
                 </div>
-                </li>
             )
-          
     }
 }
+
 
 export default ListItem
