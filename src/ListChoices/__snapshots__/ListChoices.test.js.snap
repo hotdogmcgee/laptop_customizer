@@ -15,45 +15,31 @@ exports[`ListChoices component renders the UI as expected 1`] = `
     >
       <li
         className="feature__item"
+        onClick={[Function]}
       >
         <div
-          onClick={1}
+          className="feature__option "
         >
+          <div>
+            17th Generation Intel Core HB (7 Core with donut spare)
+          </div>
           (
-          $NaN
+          $700.00
           )
         </div>
       </li>
       <li
         className="feature__item"
+        onClick={[Function]}
       >
         <div
-          onClick={1}
+          className="feature__option "
         >
+          <div>
+            Professor X AMD Fire Breather with sidewinder technology
+          </div>
           (
-          $NaN
-          )
-        </div>
-      </li>
-      <li
-        className="feature__item"
-      >
-        <div
-          onClick={1}
-        >
-          (
-          $NaN
-          )
-        </div>
-      </li>
-      <li
-        className="feature__item"
-      >
-        <div
-          onClick={1}
-        >
-          (
-          $NaN
+          $1,200.00
           )
         </div>
       </li>
@@ -70,45 +56,31 @@ exports[`ListChoices component renders the UI as expected 1`] = `
     >
       <li
         className="feature__item"
+        onClick={[Function]}
       >
         <div
-          onClick={1}
+          className="feature__option "
         >
+          <div>
+            Ubuntu Linux 16.04
+          </div>
           (
-          $NaN
+          $200.00
           )
         </div>
       </li>
       <li
         className="feature__item"
+        onClick={[Function]}
       >
         <div
-          onClick={1}
+          className="feature__option "
         >
+          <div>
+            Bodhi Linux
+          </div>
           (
-          $NaN
-          )
-        </div>
-      </li>
-      <li
-        className="feature__item"
-      >
-        <div
-          onClick={1}
-        >
-          (
-          $NaN
-          )
-        </div>
-      </li>
-      <li
-        className="feature__item"
-      >
-        <div
-          onClick={1}
-        >
-          (
-          $NaN
+          $300.00
           )
         </div>
       </li>
@@ -125,45 +97,31 @@ exports[`ListChoices component renders the UI as expected 1`] = `
     >
       <li
         className="feature__item"
+        onClick={[Function]}
       >
         <div
-          onClick={1}
+          className="feature__option "
         >
+          <div>
+            Toyota Corolla 1.5v
+          </div>
           (
-          $NaN
+          $1,150.98
           )
         </div>
       </li>
       <li
         className="feature__item"
+        onClick={[Function]}
       >
         <div
-          onClick={1}
+          className="feature__option "
         >
+          <div>
+            Mind mild breeze 2000
+          </div>
           (
-          $NaN
-          )
-        </div>
-      </li>
-      <li
-        className="feature__item"
-      >
-        <div
-          onClick={1}
-        >
-          (
-          $NaN
-          )
-        </div>
-      </li>
-      <li
-        className="feature__item"
-      >
-        <div
-          onClick={1}
-        >
-          (
-          $NaN
+          $1,345.00
           )
         </div>
       </li>
@@ -180,45 +138,31 @@ exports[`ListChoices component renders the UI as expected 1`] = `
     >
       <li
         className="feature__item"
+        onClick={[Function]}
       >
         <div
-          onClick={1}
+          className="feature__option "
         >
+          <div>
+            15.6" UHD (3840 x 2160) 60Hz Bright Lights and Knobs
+          </div>
           (
-          $NaN
+          $1,500.00
           )
         </div>
       </li>
       <li
         className="feature__item"
+        onClick={[Function]}
       >
         <div
-          onClick={1}
+          className="feature__option "
         >
+          <div>
+            15.3" HGTV (3840 x 2160) Home makeover edition
+          </div>
           (
-          $NaN
-          )
-        </div>
-      </li>
-      <li
-        className="feature__item"
-      >
-        <div
-          onClick={1}
-        >
-          (
-          $NaN
-          )
-        </div>
-      </li>
-      <li
-        className="feature__item"
-      >
-        <div
-          onClick={1}
-        >
-          (
-          $NaN
+          $1,400.00
           )
         </div>
       </li>

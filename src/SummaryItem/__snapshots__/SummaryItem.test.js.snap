@@ -3,12 +3,11 @@
 exports[`SummaryItem component renders the UI as expected 1`] = `
 <div
   className="summary__option"
-  label="type of thing"
+  label="test item"
 >
   <div
     className="summary__option__label"
   >
-    type of thing
       
   </div>
   <div

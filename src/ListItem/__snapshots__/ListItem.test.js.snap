@@ -6,31 +6,22 @@ exports[`ListItem component renders the UI as expected 1`] = `
 >
   <div
     className="feature__name"
-  >
-    hello
-  </div>
+  />
   <ul
     className="feature__list"
   >
     <li
       className="feature__item"
+      onClick={[Function]}
     >
       <div
-        onClick={1}
+        className="feature__option "
       >
+        <div>
+          hello
+        </div>
         (
-        $NaN
-        )
-      </div>
-    </li>
-    <li
-      className="feature__item"
-    >
-      <div
-        onClick={1}
-      >
-        (
-        $NaN
+        $45.00
         )
       </div>
     </li>

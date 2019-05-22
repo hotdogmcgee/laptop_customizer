@@ -3,11 +3,32 @@
 exports[`ListItemOption component renders the UI as expected 1`] = `
 <li
   className="feature__item"
+  onClick={[Function]}
 >
   <div
-    onClick={1}
+    className="feature__option "
   >
-    hello
+    <div>
+      hello
+    </div>
+    (
+    $45.00
+    )
+  </div>
+</li>
+`;
+
+exports[`ListItemOption component simulates clicking an li element 1`] = `
+<li
+  className="feature__item"
+  onClick={[Function]}
+>
+  <div
+    className="feature__option "
+  >
+    <div>
+      hello
+    </div>
     (
     $45.00
     )
