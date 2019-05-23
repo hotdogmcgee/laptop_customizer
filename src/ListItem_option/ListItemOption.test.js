@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import renderer from 'react-test-renderer';
 import ListItemOption from './index.js'
 import { shallow } from 'enzyme'
 import toJson from 'enzyme-to-json'

@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import renderer from 'react-test-renderer'
 import App from './App';
 import { shallow } from 'enzyme'
 import toJson from 'enzyme-to-json'
@@ -59,7 +58,6 @@ describe('App Component', () => {
   });
 
   it('renders the UI as expected', () => {
-    // when I add features prop to App, it has issues with ListChoices call
     const wrapper = shallow(<App features={FEATURES}/>)
     expect(toJson(wrapper)).toMatchSnapshot()
   });
