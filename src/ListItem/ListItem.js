@@ -8,7 +8,7 @@ class ListItem extends React.Component {
 
     render() {
 
-        const { featuresItem = [], featureName, selected } = this.props
+        const { featuresItem = [], featureName, currentItem } = this.props
 
         const ListItem_item = featuresItem.map((item, index) => 
                 {
@@ -18,7 +18,7 @@ class ListItem extends React.Component {
                     key={index}
                     cost={item.cost}
                     featureName={featureName}
-                    selected={selected}
+                    currentItem={currentItem}
                  />}
 
             );

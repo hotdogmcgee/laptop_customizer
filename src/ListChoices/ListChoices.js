@@ -7,7 +7,7 @@ class ListChoices extends React.Component {
     }
 
     render() {
-        const { features, selected } = this.props
+        const { features, currentItem } = this.props
 
         const displayFeatures = Object.keys(features)
           .map((featuresItem, index) => {
@@ -17,7 +17,7 @@ class ListChoices extends React.Component {
                 featuresItem={features[featuresItem]}
                 updateFeature={this.props.updateFeature}
                 key={index}
-                selected={selected}
+                currentItem={currentItem}
                 />
 
             }); 
@@ -33,7 +33,7 @@ class ListChoices extends React.Component {
 
 ListChoices.defaultProps = {
     features: {},
-    selected: []
+    currentItem: []
 }
 
 export default ListChoices

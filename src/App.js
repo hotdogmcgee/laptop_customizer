@@ -32,7 +32,8 @@ class App extends Component {
     const selected = Object.assign({}, this.state.selected);
     selected[feature] = newValue;
     this.setState({
-      selected
+      selected,
+      currentItem: newValue
     });
   }
 
@@ -48,7 +49,7 @@ class App extends Component {
         <main>
           <section className="main__form">
             <h3>TECH SPECS AND CUSTOMIZATIONS</h3>
-            <ListChoices selected={this.state.selected} features={this.props.features} updateFeature={this.updateFeature.bind(this)}/>
+            <ListChoices currentItem={this.state.currentItem} features={this.props.features} updateFeature={this.updateFeature.bind(this)}/>
           </section>
           <section className="main__summary">
             <h3>NEW GREENLEAF 2018</h3>

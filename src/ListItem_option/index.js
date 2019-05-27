@@ -8,9 +8,9 @@ class ListItemOption extends React.Component {
 
     render() {
 
-        const {item, cost, featureName, selected} = this.props
+        const {item, cost, featureName, currentItem} = this.props
 
-        const selectedClass = item.name === selected ? 'feature__selected' : '';
+        const selectedClass = item.name === currentItem.name ? 'feature__selected' : '';
         const featureClass = 'feature__option ' + selectedClass;
         return (
             <li className="feature__item"
