@@ -19,7 +19,6 @@ class ListChoices extends React.Component {
                 key={index}
                 currentItem={currentItem}
                 />
-
             }); 
     
 
